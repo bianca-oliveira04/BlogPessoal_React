@@ -1,6 +1,6 @@
 import React from 'react';
 import './home.css';
-import App from '../../App';
+
 
 
 function Home(){
@@ -17,4 +17,3 @@ function Home(){
 }
 
 export default Home;
-<><App/>

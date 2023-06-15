@@ -1,15 +1,15 @@
 import React from 'react'
-import ReactDOM from 'react-dom/client'
+import ReactDOM from 'react-dom'
 import App from './App.tsx'
 import './index.css'
 import Home from './assets/pages/home.tsx'
 
 
-ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
+ReactDOM.render(
   <React.StrictMode>
     <App />
-    <Home />
   </React.StrictMode>,
+  document.getElementById('root') as HTMLElement
 )
 
 

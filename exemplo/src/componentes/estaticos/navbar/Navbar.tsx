@@ -19,7 +19,7 @@ const dispatch = useDispatch();
 
     function goLogout(){
         dispatch(addToken(''));
-       toast.success('Usuário deslogado', {
+       toast.info('Usuário deslogado', {
             position: "top-right",
             autoClose: 2000,
             hideProgressBar: false,
